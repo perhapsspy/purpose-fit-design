@@ -42,8 +42,7 @@ Skip this skill and use a specialist workflow directly when its trigger is alrea
 
 - Use source-owner discovery when the source of truth is unproven.
 - Use semantic-boundary design when one meaning can drift across layers.
-- Use scope-justification when options, fields, abstractions, or follow-ups could expand.
-- Use structure-focused planning after the owner/design direction is settled and code shape is the next problem.
+- Use structure-focused change-boundary planning when options, fields, abstractions, or follow-ups could expand, or after the owner/design direction is settled and code shape is the next problem.
 - Use interactive-state flow analysis when user intent, presentation, async work, or freshness can mix.
 
 ## Red Flags
