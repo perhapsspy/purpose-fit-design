@@ -4,9 +4,7 @@
 
 ## Summary
 
-`purpose-fit-design` helps an agent check whether a design or implementation-planning direction fits the user/domain purpose, explicit constraints, current evidence, and verifiable success conditions before coding starts.
-
-It treats existing implementation, copy-friendly code, and fallback/default logic as evidence to classify rather than as default design authority. It blocks misleading reuse and temporary copy pressure, while still preserving existing components or contracts when they are the real source owner.
+Before reusing existing code, `purpose-fit-design` checks whether it fits the actual purpose and constraints of this work. It reduces false starts caused by familiar or easy-to-copy implementations and makes success clear before coding begins.
 
 ## Quick Start
 
@@ -21,20 +19,20 @@ Or copy `skills/purpose-fit-design` directly into an agent skill directory.
 **Use**
 
 ```text
-Use $purpose-fit-design to check whether this implementation plan fits the user purpose before coding.
+Use $purpose-fit-design to check whether copying this search screen fits the current request.
 
-Use $purpose-fit-design to decide whether copying this fallback preserves the domain purpose.
+Use $purpose-fit-design to check whether keeping this fallback would break the behavior users expect.
 
-Use $purpose-fit-design to judge whether a new local component is justified or the source-owned component should be composed.
+Use $purpose-fit-design to decide whether this needs a new component or can safely reuse the existing one.
 ```
 
 ## Use When
 
 - Existing implementation is convenient to reuse, but may not fit the current purpose.
-- A rejected field, status, UI pattern, schema, timeout, policy, or fallback may return under another layer name.
-- "Copy now, clean later" could blur domain meaning, state, policy, or verification.
-- Route, UI, adapter, realtime, or presentation code may compute the same meaning through a fallback chain.
-- You need to avoid both misleading reuse and over-rejecting a valid source-owned component or contract.
+- A rejected field, status, or policy may return under another name.
+- "Copy now, clean later" could blur the real requirement or success condition.
+- Multiple layers are about to calculate the same rule independently.
+- You need to decide whether to create something new or reuse an existing component based on purpose.
 
 ## Support
 
