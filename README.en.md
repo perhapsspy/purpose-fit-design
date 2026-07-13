@@ -31,7 +31,7 @@ Use $purpose-fit-design to decide whether this needs a new component or can safe
 - Existing implementation is convenient to reuse, but may not fit the current purpose.
 - A rejected field, status, or policy may return under another name.
 - "Copy now, clean later" could blur the real requirement or success condition.
-- Multiple layers are about to calculate the same rule independently.
+- You need to check whether reusing part of an existing implementation still preserves the goal and constraints.
 - You need to decide whether to create something new or reuse an existing component based on purpose.
 
 ## Support
