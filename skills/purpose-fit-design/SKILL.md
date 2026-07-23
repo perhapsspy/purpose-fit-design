@@ -69,5 +69,5 @@ Before implementation or final recommendation, confirm:
 - The reach of each correction matches the request; unaffected purpose, constraints, and known owner boundaries remain intact.
 - Urgency did not override constraints, owner boundaries, a credible reversal story, or verification.
 - Existing code has been classified by evidence status, not convenience.
-- Any semantic decision has one owner or a named unknown.
+- Any semantic decision has a non-competing resolution path, or a named unknown. That path may be one owner, an explicit order of composition, or a coordination/conflict-resolution protocol.
 - Process weight matches task size.
