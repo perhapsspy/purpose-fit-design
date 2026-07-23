@@ -4,7 +4,7 @@
 
 ## Summary
 
-Before an existing structure or first solution closes the direction too soon, `purpose-fit-design` reopens the design space from the purpose, constraints, and evidence of the current work. It treats familiar or easy-to-copy implementations as evidence rather than the default shape, then finds a provisional direction or the smallest useful probe before coding.
+Use `purpose-fit-design` to choose directions for new features, reuse decisions, and temporary implementations from user/domain purpose, constraints, current evidence, and verifiable success. Compare only useful alternatives, then leave a provisional direction, a small check, or one blocking question.
 
 ## Quick Start
 
@@ -19,21 +19,19 @@ Or copy `skills/purpose-fit-design` directly into an agent skill directory.
 **Use**
 
 ```text
-Use $purpose-fit-design to reopen the direction from this purpose before copying the existing search screen.
+Use $purpose-fit-design to set the direction for this new search feature from the user goal and success condition.
 
-Use $purpose-fit-design to check whether keeping this fallback would break the behavior users expect.
+Use $purpose-fit-design to define the constraints and verification for a quick temporary implementation.
 
 Use $purpose-fit-design to decide whether this needs a new component or can safely reuse the existing one.
 ```
 
 ## Use When
 
-- An existing structure or first solution may decide the early direction in advance.
-- A material choice needs one credible contrast or the smallest useful probe.
-- A rejected field, status, or policy may return under another name.
-- "Copy now, clean later" could blur the real requirement or success condition.
-- You need to check whether reusing part of an existing implementation still preserves the goal and constraints.
-- You need to decide whether to create something new or reuse an existing component based on purpose.
+- Set a design or implementation direction before coding a new feature.
+- Decide whether to reuse existing work or build something new.
+- Define the scope, verification, and reversal of a temporary implementation.
+- Check whether defaults or explicitly rejected concepts affect the purpose and constraints.
 
 ## Support
 
