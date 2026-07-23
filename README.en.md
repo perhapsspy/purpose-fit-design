@@ -4,7 +4,7 @@
 
 ## Summary
 
-Before reusing existing code, `purpose-fit-design` checks whether it fits the actual purpose and constraints of this work. It reduces false starts caused by familiar or easy-to-copy implementations and makes success clear before coding begins.
+Before an existing structure or first solution closes the direction too soon, `purpose-fit-design` reopens the design space from the purpose, constraints, and evidence of the current work. It treats familiar or easy-to-copy implementations as evidence rather than the default shape, then finds a provisional direction or the smallest useful probe before coding.
 
 ## Quick Start
 
@@ -19,7 +19,7 @@ Or copy `skills/purpose-fit-design` directly into an agent skill directory.
 **Use**
 
 ```text
-Use $purpose-fit-design to check whether copying this search screen fits the current request.
+Use $purpose-fit-design to reopen the direction from this purpose before copying the existing search screen.
 
 Use $purpose-fit-design to check whether keeping this fallback would break the behavior users expect.
 
@@ -28,7 +28,8 @@ Use $purpose-fit-design to decide whether this needs a new component or can safe
 
 ## Use When
 
-- Existing implementation is convenient to reuse, but may not fit the current purpose.
+- An existing structure or first solution may decide the early direction in advance.
+- A material choice needs one credible contrast or the smallest useful probe.
 - A rejected field, status, or policy may return under another name.
 - "Copy now, clean later" could blur the real requirement or success condition.
 - You need to check whether reusing part of an existing implementation still preserves the goal and constraints.
